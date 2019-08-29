@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <style>
+    .flexContainer {
+    display: flex;
+}
+.flexItem {
+    flex: 1;
+}
+.flexStart {
+    justify-content: flex-start;
+}
+.flexEnd {
+    justify-content: flex-end;
+}
+.blueBackground {
+    background: rgb(244, 244, 245);
+}
+.nav {
+    list-style: none;
+}
+.nav a {
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+    color: black;
+}
+.flexContainer {
+    display: flex;
+}
+.flexSpaceAround {
+    justify-content:center;
+}
+.subContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+.col {
+    width: 32%;
+    border: 1px solid #777777;
+    border-radius: 8px;
+    background: white;
+    padding: 20px;
+}
+body {
+  background-image: url(./solotravel.jpg);  
+  background-size: 100%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+}
+.Quote {
+    font-family: sans-serif;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+}
+.bookbtn {
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 15px;
+}
+    </style>
+</head>
+<body>
+    <nav class="flexContainer blueBackground">
+        <ul class="nav flexItem flexStart">
+            <b><li><a href="#">Tour Mentor <i class="fas fa-plane-departure"></i> </a> </li></b> 
+        </ul>
+        <ul class="nav flexContainer flexEnd">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Discounts</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="Quote">
+    <p>“Better to see something once than hear about it a thousand times”</p>
+    <button class="bookbtn">BOOK NOW</button>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="flexContainer flexSpaceAround">
+    <i class="fab fa-twitter"></i> &nbsp;&nbsp;
+    <i class="fab fa-google-plus-g"></i> &nbsp;&nbsp;
+    <i class="fab fa-facebook-f"></i> &nbsp;&nbsp;
+    <i class="fab fa-linkedin"></i> &nbsp;&nbsp;
+    <i class="fab fa-pinterest-square"></i> &nbsp;&nbsp;
+    <i class="fab fa-dribbble"></i> &nbsp;&nbsp;
+    <i class="fab fa-instagram"></i> &nbsp;&nbsp;
+</body>
+</html>
